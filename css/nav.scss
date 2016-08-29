@@ -1,15 +1,51 @@
 .nav{
+  z-index: 10;
 
+  height: 150px;
   &__logo{
+    position: absolute;
 
+    display: inline-block;
+
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    color: #dc0000;
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 48px;
+    &--small{
+      text-transform: uppercase;
+
+      color: $primary-color;
+
+      font-family: $font-stack1;
+      font-size: 36px;
+    }
   }
   &__pages{
+    position: absolute;
+    left: 70%;
 
+    display: inline-block;
+
+    list-style: none;
+
+    vertical-align: middle;
   }
   &__item{
+    display: inline;
 
+    padding: 1.5%;
+
+    background-color: black;
   }
   &__link{
+  text-decoration: none;
 
+  color: $white;
+
+  font-family: $font-stack2;
+  font-size: 18px;
   }
 }

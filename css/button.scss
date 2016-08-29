@@ -1,0 +1,21 @@
+.button{
+  display: inline-block;
+
+  width: 200px;
+  height: 60px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  background-color: rgba(0, 0, 0, 0.0);
+
+  font-family: $font-stack1;
+  font-size: 18px;
+  padding-top: .8%;
+
+  &--white{
+    color: $white;
+    border: 1px solid $white;
+
+  }
+}

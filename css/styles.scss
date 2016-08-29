@@ -1,12 +1,20 @@
-@import "var.scss";
-
+@import "variables.scss";
+@import "nav.scss";
+@import "slider.scss";
+@import "button.scss";
+@import "pagination.scss";
+@import "latest.scss";
+@import "collection.scss";
+@import "heading.scss";
 
 *, *:before, *:after {
   box-sizing: border-box;
 }
 
 html{
-
+  width: 100%;
+margin: 0;
+padding: 0;
 
 }
 

@@ -1,0 +1,179 @@
+.nav {
+  z-index: 10;
+  height: 150px; }
+  .nav__logo {
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #dc0000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 48px; }
+    .nav__logo--small {
+      text-transform: uppercase;
+      color: #dc0000;
+      font-family: "Lato", sans-serif;
+      font-size: 36px; }
+  .nav__pages {
+    position: absolute;
+    left: 70%;
+    display: inline-block;
+    list-style: none;
+    vertical-align: middle; }
+  .nav__item {
+    display: inline;
+    padding: 1.5%;
+    background-color: black; }
+  .nav__link {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px; }
+
+.slider {
+  display: table;
+  width: 100%;
+  min-height: 934px;
+  text-align: center;
+  background-image: url("../img/slider1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .slider__collection {
+    padding-top: 18%;
+    margin: 0;
+    margin-bottom: 1.5%;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 300; }
+  .slider__heading {
+    margin: 0;
+    margin-bottom: 1.5%;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    font-size: 60px;
+    font-weight: 900; }
+  .slider__desc {
+    margin: 0;
+    margin-bottom: 1.5%;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 300; }
+
+.button {
+  display: inline-block;
+  width: 200px;
+  height: 60px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  padding-top: .8%; }
+  .button--white {
+    color: #ffffff;
+    border: 1px solid #ffffff; }
+
+.pagination {
+  display: block; }
+  .pagination__button {
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 50%; }
+    .pagination__button--active {
+      display: inline-block;
+      background-color: transparent;
+      border: 1px solid #ffffff; }
+
+.latest {
+  text-align: center;
+  width: 100% auto; }
+
+.collection {
+  margin: 0 .5%;
+  margin-top: 10%;
+  display: inline-block;
+  width: 370px;
+  min-height: 418px; }
+  .collection--mens {
+    background-image: url("../img/mensCollection.jpg");
+    background-repeat: no-repeat;
+    background-position: center; }
+  .collection--womens {
+    background-image: url("../img/womansCollection.jpg");
+    background-repeat: no-repeat;
+    background-position: center; }
+  .collection--watches {
+    background-image: url("../img/watchesCollection.jpg");
+    background-repeat: no-repeat;
+    background-position: center; }
+  .collection__name {
+    color: #ffffff;
+    padding-top: 35%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    font-style: italic; }
+  .collection__border {
+    width: 80%;
+    min-height: 355px;
+    margin: 0 auto;
+    margin-top: 8%;
+    border: 1px solid #ffffff;
+    transition: all .4s ease; }
+  .collection:hover {
+    transform: scale(1.02); }
+    .collection:hover.collection__border {
+      border: 5px solid #ffffff; }
+
+.heading {
+  position: relative;
+  z-index: 4;
+  top: 3%;
+  left: 50%;
+  transform: translateX(-50%); }
+  .heading__text {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    transform: translateX(-50%);
+    text-transform: capitalize;
+    display: inline-block;
+    vertical-align: middle;
+    color: #333333;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 300; }
+  .heading__border {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    right: 50%;
+    transform: translateX(50%);
+    display: inline-block;
+    width: 111px;
+    height: 111px;
+    vertical-align: middle;
+    border-top: 3px solid #dc0000;
+    border-bottom: 3px solid #dc0000; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+html {
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+/*# sourceMappingURL=styles.css.map */

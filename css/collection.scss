@@ -1,0 +1,52 @@
+.collection{
+  margin: 0 .5%;
+  margin-top:10%;
+  display: inline-block;
+
+  width: 370px;
+  min-height: 418px;
+
+
+  &--mens{
+    background-image: url('../img/mensCollection.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  &--womens{
+    background-image: url('../img/womansCollection.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  &--watches{
+    background-image: url('../img/watchesCollection.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  &__name{
+    color: $white;
+    padding-top: 35%;
+
+    font-family: $font-stack2;
+    font-size: 40px;
+    font-weight: 300;
+    font-style: italic;
+
+
+  }
+  &__border{
+  width: 80%;
+  min-height: 355px;
+  margin: 0 auto;
+  margin-top: 8%;
+
+  border: 1px solid $white;
+  transition: all .4s ease;
+
+  }
+  &:hover{
+    transform: scale(1.02);
+    &.collection__border{
+      border: 5px solid $white;
+    }
+  }
+}

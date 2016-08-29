@@ -1,0 +1,45 @@
+@import 'variables.scss';
+
+.heading {
+  position: relative;;
+  z-index: 4;
+  top: 3%;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  &__text{
+    position: absolute;;
+    z-index: 1;
+    top: 0;
+    transform: translateX(-50%);
+    text-transform: capitalize;
+
+    display: inline-block;
+
+    vertical-align: middle;
+
+    color: $secondary-color;
+
+    font-family: $font-stack2;
+    font-size: 30px;
+    font-weight: 300;
+
+  }
+  &__border{
+    position: absolute;;
+    z-index: 3;
+    top: 0;
+    right: 50%;
+    transform: translateX(50%);
+    display: inline-block;
+
+    width: 111px;
+    height: 111px;
+
+    vertical-align: middle;
+
+    border-top: 3px solid $primary-color;
+    border-bottom: 3px solid $primary-color;
+  }
+}
